@@ -1,6 +1,4 @@
 ### Procedure
-
-<h3>Procedure</h3>
 <ol class="procedure-list">
     <li>The billet material suitable for artificial body implants is selected and prepared with required dimensions.</li>
     <li>The billet is initially inspected to ensure it is free from surface defects and impurities.</li>
