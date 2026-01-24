@@ -2,38 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the main benefit of grain refinement in implant materials?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Reduced corrosion resistance",
+        "b": "Lower melting temperature",
+        "c": "Increased strength and fatigue resistance",
+        "d": "Increased brittleness"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+
+    {
+      "question": "Why is fatigue resistance important for implants like hip and knee joints?",
+      "answers": {
+        "a": "Exposure to chemicals",
+        "b": "Repeated cyclic loading during movement",
+        "c": "High operating temperature",
+        "d": "Electrical stimulation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "Which process improves mechanical properties by plastic deformation?",
+      "answers": {
+        "a": "Casting",
+        "b": "Welding",
+        "c": "Sand molding",
+        "d": "Severe plastic deformation"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why must implant materials be non-toxic?",
+      "answers": {
+        "a": "To avoid adverse biological reactions",
+        "b": "To increase surface hardness",
+        "c": "To reduce manufacturing cost",
+        "d": "To improve machinability"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which body parts commonly require metallic implants as shown in the experiment?",
+      "answers": {
+        "a": "Skull and ribs",
+        "b": "Tooth, elbow, and hip",
+        "c": "Fingers only",
+        "d": "Neck only"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
