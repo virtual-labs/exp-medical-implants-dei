@@ -12,8 +12,3 @@
     <li>The refined billet is then considered suitable for manufacturing high-strength, lightweight artificial body implants.</li>
 </ol>
 
-.procedure-list li {
-    margin-bottom: 12px;     <!-- space after each line -->
-    line-height: 1.6;        <!-- improves readability -->
-}
-
