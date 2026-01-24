@@ -2,37 +2,61 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary requirement of materials used for medical implants?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "High electrical conductivity",
+        "b": "High strength and biocompatibility",
+        "c": "High thermal expansion",
+        "d": "High density"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+     {
+      "question": "Why are metallic materials preferred for orthopedic implants?",
+      "answers": {
+        "a": "They are lightweight only",
+        "b": "They are corrosion-free in air",
+        "c": "They possess high strength and toughness",
+        "d": "They are non-magnetic"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+     {
+      "question": "Which property ensures compatibility of implant material with human body tissues?",
+      "answers": {
+        "a": "Hardness",
+        "b": "Ductility",
+        "c": "Biocompatibility",
+        "d": "Density"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+     {
+      "question": "Load-bearing implants are those which:",
+      "answers": {
+        "a": "Dissolve after implantation",
+        "b": "that are used for cosmetic purposes",
+        "c": "Conduct electrical signals",
+        "d": "Support mechanical loads of the body"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is a commonly used orthopedic implant?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Hip joint implant",
+        "b": "Cardiac pacemaker",
+        "c": "Hearing aid",
+        "d": "Contact lens"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
