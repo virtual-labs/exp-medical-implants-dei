@@ -3,7 +3,6 @@
 **Use of High-Strength Metal Composites in Body Implants:**
 <br>
 1. High-strength metal matrix composites are extensively used in artificial body implants because of their high strength-to-weight ratio, low density, and chemical stability.
-<br>
 2. These materials are non-toxic and biocompatible, allowing them to function safely inside the human body for long periods without adverse reactions.
 <br><br>
 
