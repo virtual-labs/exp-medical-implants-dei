@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the main benefit of grain refinement in implant materials?",
+      "question": "1. What is the main benefit of grain refinement in implant materials?",
       "answers": {
         "a": "Reduced corrosion resistance",
         "b": "Lower melting temperature",
@@ -14,7 +14,7 @@
     },
 
     {
-      "question": "Why is fatigue resistance important for implants like hip and knee joints?",
+      "question": "2. Why is fatigue resistance important for implants like hip and knee joints?",
       "answers": {
         "a": "Exposure to chemicals",
         "b": "Repeated cyclic loading during movement",
@@ -26,7 +26,7 @@
     },
 
     {
-      "question": "Which process improves mechanical properties by plastic deformation?",
+      "question": "3. Which process improves mechanical properties by plastic deformation?",
       "answers": {
         "a": "Casting",
         "b": "Welding",
@@ -38,7 +38,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "Why must implant materials be non-toxic?",
+      "question": "4. Why must implant materials be non-toxic?",
       "answers": {
         "a": "To avoid adverse biological reactions",
         "b": "To increase surface hardness",
@@ -49,7 +49,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "Which body parts commonly require metallic implants as shown in the experiment?",
+      "question": "5. Which body parts commonly require metallic implants as shown in the experiment?",
       "answers": {
         "a": "Skull and ribs",
         "b": "Tooth, elbow, and hip",
