@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the primary requirement of materials used for medical implants?",
+      "question": "1. What is the primary requirement of materials used for medical implants?",
       "answers": {
         "a": "High electrical conductivity",
         "b": "High strength and biocompatibility",
@@ -14,7 +14,7 @@
     },
 
      {
-      "question": "Why are metallic materials preferred for orthopedic implants?",
+      "question": "2. Why are metallic materials preferred for orthopedic implants?",
       "answers": {
         "a": "They are lightweight only",
         "b": "They are corrosion-free in air",
@@ -26,7 +26,7 @@
     },
 
      {
-      "question": "Which property ensures compatibility of implant material with human body tissues?",
+      "question": "3. Which property ensures compatibility of implant material with human body tissues?",
       "answers": {
         "a": "Hardness",
         "b": "Ductility",
@@ -38,7 +38,7 @@
     },
 
      {
-      "question": "Load-bearing implants are those which:",
+      "question": "4. Load-bearing implants are those which:",
       "answers": {
         "a": "Dissolve after implantation",
         "b": "that are used for cosmetic purposes",
@@ -49,7 +49,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following is a commonly used orthopedic implant?",
+      "question": "5. Which of the following is a commonly used orthopedic implant?",
       "answers": {
         "a": "Hip joint implant",
         "b": "Cardiac pacemaker",
