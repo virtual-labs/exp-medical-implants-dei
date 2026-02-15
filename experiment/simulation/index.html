@@ -8,13 +8,13 @@
 </head>
 <body>
 
-    <!-- ===== HEADER ===== -->
+    <!-- HEADER -->
     <div class="header-container">
         <h2>Medical-Implants Simulations</h2>
         <div class="underline"></div>
     </div>
 
-    <!-- ===== VERTICAL NAVIGATION ===== -->
+    <!-- NAVIGATION -->
     <div class="vertical-nav">
 
         <div class="nav-item">
@@ -40,60 +40,66 @@
 
     </div>
 
-
-    <!-- ===== VIDEO OVERLAY SECTIONS ===== -->
-
+    <!-- SIMULATION 1 -->
     <div id="sim1" class="video-overlay">
         <div class="video-card">
             <span class="close-btn" onclick="hideSimulation('sim1')">&times;</span>
             <h3>Artificial Tooth Forming Simulation</h3>
-            <video width="750" controls>
-                <source src="Artificial Tooth Forming.mp4" type="video/mp4">
-            </video>
+
+            <div class="video-wrapper">
+                <video controls>
+                    <source src="Artificial Tooth Forming.mp4" type="video/mp4">
+                </video>
+            </div>
 
             <div class="description-box">
                 <p><strong>Description:</strong>
-                This simulation demonstrates the manufacturing of an artificial tooth using Equal Channel Angular Pressing (ECAP), a severe plastic deformation technique. A titanium alloy billet (10 mm diameter, 100 mm length) is processed through a 120° ECAP die at room temperature. A small portion of the processed billet is cut and forged into tooth-shaped dies to obtain the final shape. The crown portion is then formed using another die. The complete artificial tooth with flash and all manufacturing steps are shown in this simulation.
+                This simulation demonstrates the manufacturing of an artificial tooth using ECAP processed titanium alloy.
                 </p>
             </div>
         </div>
     </div>
 
-
+    <!-- SIMULATION 2 -->
     <div id="sim2" class="video-overlay">
         <div class="video-card">
             <span class="close-btn" onclick="hideSimulation('sim2')">&times;</span>
             <h3>Artificial Elbow Joint Simulation</h3>
-            <video width="750" controls>
-                <source src="Elbow joint.mp4" type="video/mp4">
-            </video>
+
+            <div class="video-wrapper">
+                <video controls>
+                    <source src="Elbow joint.mp4" type="video/mp4">
+                </video>
+            </div>
 
             <div class="description-box">
                 <p><strong>Description:</strong>
-                This simulation shows the manufacturing of an artificial elbow joint using ECAP processed titanium alloy. A billet (25 mm diameter, 200 mm length) is processed through a 120° ECAP die. The processed billet is cut into parts and shaped through multiple forging operations including die forging and binding. The final assembly and exploded view of the elbow joint are displayed, illustrating each stage of the manufacturing process.
+                This simulation shows the manufacturing of an artificial elbow joint using ECAP processed titanium alloy.
                 </p>
             </div>
         </div>
     </div>
 
-
+    <!-- SIMULATION 3 -->
     <div id="sim3" class="video-overlay">
         <div class="video-card">
             <span class="close-btn" onclick="hideSimulation('sim3')">&times;</span>
             <h3>Artificial Hip Joint Simulation</h3>
-            <video width="750" controls>
-                <source src="Hip Joint.mp4" type="video/mp4">
-            </video>
+
+            <div class="video-wrapper">
+                <video controls>
+                    <source src="Hip Joint.mp4" type="video/mp4">
+                </video>
+            </div>
 
             <div class="description-box">
                 <p><strong>Description:</strong>
-                This simulation demonstrates the manufacturing of an artificial hip joint using ECAP processed titanium alloy. A billet (25 mm diameter, 200 mm length) is first processed through a 120° ECAP die. The processed billet is then placed between specially designed hydraulic hip-shaped dies to form the final artificial hip joint. The simulation shows the transformation process and the final forged hip joint with flash.
+                This simulation demonstrates the manufacturing of an artificial hip joint using ECAP processed titanium alloy.
                 </p>
             </div>
         </div>
     </div>
 
-    <!-- ===== JAVASCRIPT ===== -->
     <script src="js/main.js"></script>
 
 </body>
