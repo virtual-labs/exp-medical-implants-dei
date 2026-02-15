@@ -35,7 +35,7 @@
       },
      
       "correctAnswer": "d",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     },
     {
       "question": "4. Why must implant materials be non-toxic?",
@@ -46,7 +46,7 @@
         "d": "To improve machinability"
       },
       "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     },
     {
       "question": "5. Which body parts commonly require metallic implants as shown in the experiment?",
@@ -57,7 +57,7 @@
         "d": "Neck only"
       },
       "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     }
   ]
 }
