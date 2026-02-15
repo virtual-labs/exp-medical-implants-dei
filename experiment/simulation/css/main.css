@@ -1,131 +1,85 @@
 /* You CSS goes in here */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    overflow-x: hidden;
 }
 
-/* ===== HEADER ===== */
-.header-container {
+/* Section Styling */
+.experiment-section {
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
-.underline {
-    width: 60px;
-    height: 4px;
-    background: #0077b6;
-    margin: 10px auto;
-}
-
-/* ===== NAVIGATION ===== */
-.vertical-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-    padding: 20px;
-}
-
-.nav-item {
-    text-align: center;
-    max-width: 600px;
-}
-
-.cta-text {
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-
-.play-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+.button-container button {
+    padding: 12px 20px;
+    margin: 10px;
     border: none;
-    background-color: #0077b6;
+    background: #007bff;
     color: white;
-    border-radius: 5px;
-    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
 }
 
-.play-btn:hover {
-    background-color: #023e8a;
+.button-container button:hover {
+    background: #0056b3;
 }
 
-/* ===== VIDEO OVERLAY ===== */
+/* Overlay */
 .video-overlay {
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
+    z-index: 1000;
+}
+
+/* Card */
+.video-card {
+    position: relative;
+    background: white;
+    padding: 30px 20px 20px 20px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    text-align: center;
+    max-height: 90vh;
     overflow-y: auto;
 }
 
-/* ===== VIDEO CARD ===== */
-.video-card {
-    background: white;
-    width: 100%;
-    max-width: 900px;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-}
-
-/* CLOSE BUTTON */
+/* Close Button */
 .close-btn {
-    position: fixed;
-    top: 15px;
-    right: 20px;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-    z-index: 2000;
-}
-
-/* ===== RESPONSIVE VIDEO ===== */
-.video-wrapper {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* 16:9 ratio */
-    height: 0;
-    margin-top: 15px;
-}
-
-.video-wrapper video {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+/* Video */
+video {
     width: 100%;
-    height: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
 }
 
-/* ===== DESCRIPTION ===== */
-.description-box {
-    margin-top: 20px;
-    font-size: 15px;
-    line-height: 1.6;
-}
+/* Mobile Responsive */
+@media (max-width: 768px) {
 
-/* ===== MOBILE ===== */
-@media (max-width: 600px) {
     .video-card {
-        padding: 15px;
+        padding: 25px 15px 15px 15px;
     }
 
-    .description-box {
-        font-size: 14px;
+    .close-btn {
+        font-size: 26px;
+        top: 8px;
+        right: 12px;
     }
 
-    .cta-text {
-        font-size: 14px;
-    }
 }
