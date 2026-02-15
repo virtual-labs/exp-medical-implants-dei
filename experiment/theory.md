@@ -45,3 +45,22 @@
 11. This experiment demonstrates the applicability of the top-down grain refinement approach using ECAP.
 
 12. The process enables manufacturing of lightweight, high-strength artificial body implants with improved mechanical performance.
+<br>
+<div align="center">
+  <img src="./images/Tooth_part_1.png" width="500" alt="Artificial Tooth Forming">
+  <br>
+  <b>Figure 1: Artificial Tooth Forming Process</b>
+</div>
+
+<div align="center">
+  <img src="./images/Elbow_part_2.png" width="500" alt="Elbow Joint">
+  <br>
+  <b>Figure 2: Artificial Elbow Joint Manufacturing Process</b>
+</div>
+
+<div align="center">
+  <img src="./images/hip_images_part_3.png" width="500" alt="Hip Joint">
+  <br>
+  <b>Figure 3: Artificial Hip Joint Manufacturing Process</b>
+</div>
+
