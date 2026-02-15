@@ -81,14 +81,14 @@ body {
 
 /* CLOSE BUTTON */
 .close-btn {
-    position: absolute;
+    position: fixed;
     top: 15px;
     right: 20px;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
-    color: #000;
+    color: white;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 2000;
 }
 
 /* ===== RESPONSIVE VIDEO ===== */
