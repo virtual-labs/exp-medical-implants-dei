@@ -3,74 +3,126 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: #f4f7fb;
-    text-align: center;
-    overflow: hidden;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 /* ===== HEADER ===== */
 .header-container {
-    margin-top: 20px;
-}
-
-.header-container h2 {
-    font-size: 26px;
-    color: #1e3a8a;
+    text-align: center;
+    padding: 20px;
 }
 
 .underline {
-    width: 250px;
+    width: 60px;
     height: 4px;
-    background-color: #ff7a00;
-    margin: 10px auto 20px auto;
-    border-radius: 2px;
+    background: #0077b6;
+    margin: 10px auto;
 }
 
-/* ===== VERTICAL NAVIGATION ===== */
+/* ===== NAVIGATION ===== */
 .vertical-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    margin-top: 40px;
+    padding: 20px;
 }
 
 .nav-item {
     text-align: center;
+    max-width: 600px;
 }
 
 .cta-text {
-    font-size: 16px;
     margin-bottom: 10px;
-    color: #333;
+    font-size: 16px;
 }
 
 .play-btn {
-    background-color: #1e3a8a;
-    color: white;
-    border: none;
-    padding: 10px 22px;
-    font-size: 15px;
-    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
-    transition: 0.3s ease;
+    border: none;
+    background-color: #0077b6;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
 .play-btn:hover {
-    background-color: #ff7a00;
-    transform: scale(1.05);
+    background-color: #023e8a;
 }
 
 /* ===== VIDEO OVERLAY ===== */
 .video-overlay {
     display: none;
     position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* ===== VIDEO CARD ===== */
+.video-card {
+    background: white;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+/* CLOSE BUTTON */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* ===== RESPONSIVE VIDEO ===== */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+    margin-top: 15px;
+}
+
+.video-wrapper video {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    backg
+}
+
+/* ===== DESCRIPTION ===== */
+.description-box {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+    .video-card {
+        padding: 15px;
+    }
+
+    .description-box {
+        font-size: 14px;
+    }
+
+    .cta-text {
+        font-size: 14px;
+    }
+}
