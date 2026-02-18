@@ -1,12 +1,8 @@
-## Medical Implants
-
 ### Use of High-Strength Metal Composites in Body Implants
 
 1. High-strength metal matrix composites are extensively used in artificial body implants because of their high strength-to-weight ratio, low density, and chemical stability.
 
 2. These materials are non-toxic and biocompatible, allowing them to function safely inside the human body for long periods without adverse reactions.
-
-<br>
 
 ### Conventional Manufacturing of Artificial Implants
 
@@ -14,15 +10,11 @@
 
 4. This method enables the formation of fine microstructures with controlled material properties suitable for biomedical applications.
 
-<br>
-
 ### Limitations of Bottom-Up Grain Refinement Techniques
 
 5. Despite its advantages, the bottom-up approach has several limitations, including restricted component size and very high production costs.
 
 6. These limitations make the process less suitable for large-scale or bulk manufacturing of implant materials.
-
-<br>
 
 ### Top-Down Grain Refinement Approach
 
@@ -30,15 +22,11 @@
 
 8. These techniques refine the grain structure by applying large plastic strains while maintaining the overall dimensions of the material.
 
-<br>
-
 ### Equal Channel Angular Pressing (ECAP) Process
 
 9. Among various SPD techniques, Equal Channel Angular Pressing (ECAP) is a promising method capable of producing ultra-fine-grained, high-strength materials at the bulk level.
 
 10. Although SPD processes also face size limitations, ECAP can be successfully scaled up for industrial applications.
-
-<br>
 
 ### Application of ECAP in Artificial Body Implants
 
