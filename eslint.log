@@ -1,0 +1,7 @@
+
+/home/runner/work/exp-medical-implants-dei/exp-medical-implants-dei/experiment/simulation/js/main.js
+   2:10  warning  'showSimulation' is defined but never used  no-unused-vars
+  15:10  warning  'hideSimulation' is defined but never used  no-unused-vars
+
+✖ 2 problems (0 errors, 2 warnings)
+
