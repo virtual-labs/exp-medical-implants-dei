@@ -2,37 +2,90 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. What is the primary requirement of materials used for medical implants?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "High electrical conductivity",
+        "b": "High strength and biocompatibility",
+        "c": "High thermal expansion",
+        "d": "High density"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect — Electrical conductivity is not the main requirement for most implants.",
+        "b": "Correct — Implants must have high strength to bear loads and be biocompatible to avoid rejection.",
+        "c": "Incorrect — High thermal expansion may cause dimensional instability inside the body.",
+        "d": "Incorrect — High density is not a primary requirement for implant materials."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+     {
+      "question": "2. Why are metallic materials preferred for orthopedic implants?",
+      "answers": {
+        "a": "They are lightweight only",
+        "b": "They are corrosion-free in air",
+        "c": "They possess high strength and toughness",
+        "d": "They are non-magnetic"
+      },
+      "explanations": {
+        "a": "Incorrect — Lightweight alone is not the main reason for selection.",
+        "b": "Incorrect — Metals can corrode; special alloys are used for corrosion resistance inside the body.",
+        "c": "Correct — Metals provide high strength and toughness needed for load-bearing applications.",
+        "d": "Incorrect — Magnetic property is not the primary selection criterion."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+     {
+      "question": "3. Which property ensures compatibility of implant material with human body tissues?",
+      "answers": {
+        "a": "Hardness",
+        "b": "Ductility",
+        "c": "Biocompatibility",
+        "d": "Density"
+      },
+        "explanations": {
+        "a": "Incorrect — Hardness affects wear resistance but not biological compatibility.",
+        "b": "Incorrect — Ductility relates to deformation ability, not tissue compatibility.",
+        "c": "Correct — Biocompatibility ensures the material does not cause harmful reactions in the body.",
+        "d": "Incorrect — Density does not determine tissue compatibility."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "4. Load-bearing implants are those which:",
+      "answers": {
+        "a": "Dissolve after implantation",
+        "b": "that are used for cosmetic purposes",
+        "c": "Conduct electrical signals",
+        "d": "Support mechanical loads of the body"
+      },
+       "explanations": {
+        "a": "Incorrect — Dissolving implants are bioresorbable and not typically load-bearing.",
+        "b": "Incorrect — Cosmetic implants do not necessarily carry mechanical loads.",
+        "c": "Incorrect — Conducting electrical signals is related to devices like pacemakers.",
+        "d": "Correct — Load-bearing implants support mechanical forces such as body weight."
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "5. Which of the following is a commonly used orthopedic implant?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Hip joint implant",
+        "b": "Cardiac pacemaker",
+        "c": "Hearing aid",
+        "d": "Contact lens"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+       "explanations": {
+        "a": "Correct — Hip joint implants are widely used in orthopedic surgeries.",
+        "b": "Incorrect — A cardiac pacemaker is a cardiac implant, not orthopedic.",
+        "c": "Incorrect — A hearing aid is an external assistive device.",
+        "d": "Incorrect — A contact lens is an optical device, not an orthopedic implant."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
