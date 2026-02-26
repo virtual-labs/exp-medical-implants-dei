@@ -9,6 +9,12 @@
         "c": "Increased strength and fatigue resistance",
         "d": "Increased brittleness"
       },
+         "explanations": {
+        "a": "Incorrect — Grain refinement generally improves mechanical properties and may even enhance corrosion resistance rather than reduce it.",
+        "b": "Incorrect — Grain refinement does not significantly change the melting temperature of a material.",
+        "c": "Correct — According to the Hall-Petch relationship, smaller grain size increases strength and improves fatigue resistance, which is crucial for implants.",
+        "d": "Incorrect — Grain refinement usually improves toughness and strength, not brittleness."
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -20,6 +26,12 @@
         "b": "Repeated cyclic loading during movement",
         "c": "High operating temperature",
         "d": "Electrical stimulation"
+      },
+        "explanations": {
+        "a": "Incorrect — Chemical exposure is related to corrosion resistance, not fatigue failure.",
+        "b": "Correct — Hip and knee implants undergo repeated cyclic loads during walking and running, so fatigue resistance prevents crack formation and failure.",
+        "c": "Incorrect — Human body temperature is relatively constant and not high enough to cause thermal fatigue.",
+        "d": "Incorrect — Orthopedic implants do not function based on electrical stimulation."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -33,7 +45,12 @@
         "c": "Sand molding",
         "d": "Severe plastic deformation"
       },
-     
+       "explanations": {
+        "a": "Incorrect — Casting forms shape but does not significantly improve mechanical properties through plastic strain.",
+        "b": "Incorrect — Welding joins materials and may even introduce defects if not controlled properly.",
+        "c": "Incorrect — Sand molding is a casting method and does not refine grain structure by plastic deformation.",
+        "d": "Correct — Severe plastic deformation refines grain size and enhances strength and mechanical performance."
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -45,6 +62,12 @@
         "c": "To reduce manufacturing cost",
         "d": "To improve machinability"
       },
+        "explanations": {
+        "a": "Correct — Non-toxic materials prevent inflammation, immune response, and tissue damage inside the body.",
+        "b": "Incorrect — Surface hardness is a mechanical property and unrelated to toxicity.",
+        "c": "Incorrect — Manufacturing cost does not determine biological safety.",
+        "d": "Incorrect — Machinability affects fabrication, not biological compatibility."
+      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -55,6 +78,12 @@
         "b": "Tooth, elbow, and hip",
         "c": "Fingers only",
         "d": "Neck only"
+      },
+         "explanations": {
+        "a": "Incorrect — While implants can be used in the skull or ribs, they are not the most common load-bearing metallic implant sites.",
+        "b": "Correct — Tooth, elbow, and hip joints commonly require metallic implants because they endure mechanical loads.",
+        "c": "Incorrect — Implants are not limited to fingers only.",
+        "d": "Incorrect — Neck alone is not a common primary site for metallic orthopedic implants."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
